@@ -6,6 +6,12 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
+h4{
+    font-family: 'righteous', sans-serif;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
 .btn-linear-gradient, .btn-linear-gradient2 {
     font-weight: bold; 
     transition: background-position 0.5s, color 0.5s;
@@ -24,4 +30,42 @@ p {
     background-position: left bottom;
     color: white;
 }
-
+.footer li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+.custom-wave {
+    clip-path: polygon(
+      0% 10%,  /* Start at bottom of left U */
+      18% 30%, /* Dip down for left U */
+      20% 30%, /* Rise for middle hill */
+      50% 0%, /* Peak of N-shape */
+      70% 20%, /* Downhill after peak */
+      77% 30%, /* Right U-shape */
+      100% 10%, /* End at bottom of right U */
+      100% 100%, 0% 100% /* Keep bottom straight */
+    );
+} 
+.changeColor {
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  
+  .changeColor .step {
+    color: white;
+    background: black;
+    /* padding: 40px 20px; */
+    height: 160px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: background 0.1s ease-in-out; /* Smooth transition */
+  }
+  
+  .changeColor .step.active {
+    background: #b0b0b0; /* Gray background when active */
+  }
+  
