@@ -17,20 +17,20 @@ const Footer = () => {
     <div className='footer flex bg-[#000000] m-6 mb-5 mt-0 p-16 text-white justify-around'>
         <div>
             <h4>Our Social handles</h4>
-            <div class="flex space-x-2 mt-4">
+            <div className="flex space-x-2 mt-4">
         
-                <a href="https://twitter.com" target="_blank" class="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-md">
-                    <i class="fab fa-twitter text-black text-1xl"></i>
+                <a href="https://twitter.com" target="_blank" className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-md">
+                    <i className="fab fa-twitter text-black text-1xl"></i>
                 </a>
         
        
-                <a href="https://facebook.com" target="_blank" class="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-md">
-                    <i class="fab fa-facebook text-black text-1xl"></i>
+                <a href="https://facebook.com" target="_blank" className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-md">
+                    <i className="fab fa-facebook text-black text-1xl"></i>
                 </a>
 
         
-                <a href="https://instagram.com" target="_blank" class="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-md">
-                    <i class="fab fa-instagram text-black text-1xl"></i>
+                <a href="https://instagram.com" target="_blank" className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-md">
+                    <i className="fab fa-instagram text-black text-1xl"></i>
                 </a>
             </div>
         </div>

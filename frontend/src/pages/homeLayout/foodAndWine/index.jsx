@@ -3,6 +3,7 @@ import Footer from "../../../components/footer";
 import AboutUs from "../aboutUs";
 import OrderDescription from "../orderDescription";
 import TasteMeaning from "../tasteMeaning";
+import PopularDishes from "../popularDishes";
 
 const FoodAndWine = () => {
   return (
@@ -53,7 +54,7 @@ const FoodAndWine = () => {
         </div>
 
         {/* Image Container */}
-        <div className="w-full md:w-80 lg:w-48 xl:w-[400px] flex items-stretch md:mt-0 mt-6"> {/* Image will move below on smaller screens */}
+        <div className="w-[400px] flex items-stretch md:mt-0 mt-6"> {/* Image will move below on smaller screens */}
           <img
             src="/images/foodandwine.png"
             alt="Food and Wine Logo"
@@ -63,6 +64,7 @@ const FoodAndWine = () => {
       </nav>
 
       <AboutUs />
+      <PopularDishes/>
       <TasteMeaning />
       <OrderDescription />
       <CustomerReview />

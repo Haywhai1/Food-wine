@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row justify-between mb-20"> {/* Use flex-col-reverse for stacking on small screens */}
+    <div className="flex flex-col-reverse md:flex-row justify-between mb-10"> {/* Use flex-col-reverse for stacking on small screens */}
       {/* First Child (Image) */}
       <div className="flex items-center pl-6 gap-10">
         <img 

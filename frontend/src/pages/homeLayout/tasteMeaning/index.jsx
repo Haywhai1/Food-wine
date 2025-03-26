@@ -19,7 +19,7 @@ const TasteMeaning = () => {
   return (
     <div className='flex m-6  '>
       <div>
-        <h4 className="font-semibold">
+        <h4 className="font-semibold" style={{fontSize:"30px"}}>
           Discover The True Meaning <br /> of Taste
         </h4>
         <p className='mt-4 mb-2' style={{ }}>
