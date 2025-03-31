@@ -2,7 +2,7 @@ import React from "react";
 
 const CustomerReview = () => {
   return (
-    <div className="relative h-[350px] m-6 mb-0 pb-15 flex items-center justify-center overflow-hidden">
+    <div className="relative h-[350px] m-6 mb-0 pb-8 flex items-center justify-center overflow-hidden">
       {/* SVG Background */}
       <div className="absolute inset-0 w-full h-full">
         <svg

@@ -25,9 +25,9 @@ const OrderDescription = () => {
 
   return (
     <div className='flex justify-center pb-8'>
-        <div className="flex flex-col w-[80%]">
-      <h3 className="text-center text-3xl  p-8" style={{ fontFamily: "Righteous, sans-serif" }}>How to Order</h3>
-      <div className="changeColor flex justify-between">
+        <div className="flex flex-col w-[80%] pt-10 pb-10">
+        <h3 className="text-center text-3xl  p-8" style={{ fontFamily: "Righteous, sans-serif" }}>How to Order</h3>
+        <div className="changeColor flex justify-between mt-5">
         {steps.map((step, index) => (
           <div
             key={index}

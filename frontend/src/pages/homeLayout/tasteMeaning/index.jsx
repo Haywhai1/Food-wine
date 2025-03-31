@@ -11,7 +11,7 @@ const TasteMeaning = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setBackgroundIndex((prevIndex) => (prevIndex + 1) % backgrounds.length); // Toggle between the two backgrounds
-    }, 4000); // Change every 5 seconds
+    }, 2000); // Change every 5 seconds
 
     return () => clearInterval(interval); // Clean up interval on component unmount
   }, []);

@@ -8,9 +8,9 @@ const Footer = () => {
   style={{ backgroundImage: 'url(/images/footerBg.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}
 >
     <h3 className="text-center capitalize pb-4 text-3xl " style={{ fontFamily: "Righteous, sans-serif" }}>Join us to get an amazing discount on your <br/> next order</h3>
-    <div className='flex items-center'>
-        <input type="text" placeholder="Enter your email" className="p-2 px-20 "/>
-        <button className="p-2 bg-black text-white">Submit</button>
+    <div className='flex items-center pt-4'>
+        <input type="text" placeholder="Enter your email" className="p-2 px-60 pl-2 focus:outline-none "/>
+        <button className=" p-2 px-12 bg-black text-white">Submit</button>
     </div>
 </div>
 
