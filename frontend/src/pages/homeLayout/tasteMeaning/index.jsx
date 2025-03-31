@@ -17,26 +17,26 @@ const TasteMeaning = () => {
   }, []);
 
   return (
-    <div className='flex m-6  '>
-      <div>
-        <h4 className="font-semibold" style={{fontSize:"30px"}}>
+    <div className='flex m-6'>
+      <div className='w-[50%]'>
+        <h4 className="font-semibold " style={{fontSize:"34px"}}>
           Discover The True Meaning <br /> of Taste
         </h4>
-        <p className='mt-4 mb-2' style={{ }}>
+        <p className=' mb-5'>
           Mixing Traditions, Creating Tastes and flavors without borders. <br />Immerse yourself in the ultimate cocktail experience. <br /> Our expert mixologists are dedicated to crafting bold,<br /> innovative drinks that blend traditional flavors with <br /> modern twists, using only the freshest ingredients <br /> and cutting-edge techniques
         </p>
-        <button className="btn-linear-gradient px-1 py-1 text-white bg-black rounded-md shadow-sm ">
+        <button className=" btn btn-linear-gradient px-2 py-1 text-white bg-black rounded-md shadow-sm ">
           BOOK A TABLE
         </button>
       </div>
 
       <div
-        className='flex-1 ml-[100PX] relative rounded'
+        className='flex-1  rounded-md '
         style={{
           backgroundImage: `url(${backgrounds[backgroundIndex]})`, // Set the background image dynamically
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          height: '300px', // Adjust the height as necessary
+          height: '350px',
           transition: 'background-image 1s ease-in-out', // Smooth transition between background images
         }}
       ></div>

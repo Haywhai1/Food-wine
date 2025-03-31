@@ -8,9 +8,9 @@ import PopularDishes from "../popularDishes";
 const FoodAndWine = () => {
   return (
     <>
-      <nav className="flex flex-col md:flex-row justify-between mb-6"> {/* Flex column by default, row on md screens */}
+      <nav className="flex flex-col md:flex-row justify-between mb-9"> {/* Flex column by default, row on md screens */}
         {/* Left Content (Increased Width) */}
-        <div className="flex flex-col justify-center flex-grow pl-6 max-w-[60%]">
+        <div className="food flex flex-col justify-between flex-grow pl-6 max-w-[60%]">
           <div className="flex justify-between items-center">
             <h1
               className="text-4xl mt-2 font-black text-black"
@@ -34,7 +34,7 @@ const FoodAndWine = () => {
               </li>
             </ul>
           </div>
-          <div className="mt-20 leading-none">
+          <div className="flex flex-col leading-none">
             <span className="italic" style={{ fontFamily: "Radley, sans-serif" }}>
               ...your favorite
             </span>
@@ -45,8 +45,8 @@ const FoodAndWine = () => {
               It's time to enjoy the finer things in life. <br /> A genuine fine dining experience
               awaits. <br /> Come for a drink, stay for a meal. Great food and great company.
             </p>
-            <div className="flex gap-4 mt-4">
-              <button className="btn-linear-gradient2 px-2 py-2 text-white bg-[#ff8f08] rounded-md shadow-sm">
+            <div className="flex gap-4 mt-2 mb-5">
+              <button className="btn btn-linear-gradient2 px-2 py-2 text-white bg-[#ff8f08] rounded-md shadow-sm">
                 ORDER FOOD
               </button>
               <button className="btn-linear-gradient px-2 py-2 text-white bg-black rounded-md shadow-sm ">
@@ -57,7 +57,7 @@ const FoodAndWine = () => {
         </div>
 
         {/* Image Container */}
-        <div className="w-[30%] flex items-stretch md:mt-0 mt-6"> {/* Image will move below on smaller screens */}
+        <div className="wine w-[30%] flex items-stretch md:mt-0 mt-6"> {/* Image will move below on smaller screens */}
           <img
             src="/images/foodandwine.png"
             alt="Food and Wine Logo"

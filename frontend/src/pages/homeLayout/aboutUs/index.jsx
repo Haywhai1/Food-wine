@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row justify-between mb-10"> {/* Use flex-col-reverse for stacking on small screens */}
+    <div className="about flex flex-col-reverse md:flex-row justify-between mb-10"> {/* Use flex-col-reverse for stacking on small screens */}
       {/* First Child (Image) */}
       <div className="flex items-center pl-6 gap-10">
   <img 
@@ -26,7 +26,7 @@ const AboutUs = () => {
           location in Wuse or online, you will find the best dishes you didn't <br/> 
           know you craved.
         </p>
-        <button className="btn-linear-gradient mt-2 px-2 py-1 text-white bg-black rounded-md shadow-sm self-start">
+        <button className="btn  mt-2 px-2 py-1 text-white bg-black rounded-md shadow-sm self-start">
           VIEW MORE
         </button>
       </div>
